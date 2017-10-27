@@ -6,7 +6,16 @@
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
+	
 	</parent>
+	
+	  <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+    </repository>
+  </repositories>
 
 	<groupId>uk.co.jemos.podam</groupId>
 	<artifactId>podam</artifactId>
